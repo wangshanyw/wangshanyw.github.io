@@ -105,7 +105,30 @@ name {
   font-size: 32px;
 }
 
-.one {
+.left-column {
+  width: 23%;
+  /* text-align: center; */
+  vertical-align:middle;
+}
+
+.right-column {
+  width: 75%;
+  /* text-align: center; */
+  vertical-align:middle;
+}
+
+.image-box {
+  width: 250px;  
+  height: 150px; 
+  overflow: hidden;
+}
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+/* .one {
   width: 160px;
   height: 160px;
   position: relative;
@@ -118,7 +141,7 @@ name {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
-}
+} */
 
 .fade {
   transition: opacity .2s ease-in-out;
